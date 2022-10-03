@@ -1,0 +1,139 @@
+<DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>JavaScript Functions</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+      
+    <img class="logo" src="PORTFOLIO.png" alt="logo">
+    </header>
+    <div class="title">
+      <h1>JavaScript Programs</h1>
+    </div>
+
+
+    <div class="wrapper">
+      <h1>Determine if Odd or Even</h1>
+      <p>Input a Number</p>
+      <input type="number" id="number"><br><span id="number_error"></span>
+  </p>
+  <button id="btn">Determine</button>
+  <h3>Result:<p id="output"></p></h3>
+  </div>
+
+  <div class="wrapper-two">
+    <h1>Mathematical Operations JavaScript</h1>
+    <p>Input a Number</p>
+    <input type="number" id="firstNumber"><br><span id="number_error"></span>
+    <br>
+    <input type="number" id="secondNumber"><br><span id="number_error"></span>
+</p>
+<input type="button" class="button" onClick="addBy()" Value="Add" />
+<input type="button" class="button" onClick="subtractBy()" Value="Subtract" />
+<input type="button" class="button" onClick="multiplyBy()" Value="Multiply" />
+<input type="button" class="button" onClick="divideBy()" Value="Divide" />
+<h3>Result:<p id="result"></p></h3>
+</div>
+
+<div class="wrapper-three">
+  <h1>Reverse a Number</h1>
+  <p>Input a Number</p>
+  <input type="number" id="no_input"><br><span id="number_error"></span>
+</p>
+<button id="btn" onclick="palin()">Reverse</button></br></br>
+<h3>Result:<p id="results"></p></h3>
+</div>
+
+<div class="wrapper-four">
+  <h1>Reverse a String</h1>
+  <p>Input letters</p>
+  <input type="text" id="string"><br><span id="string_error"></span>
+</p>
+<input type = "button" class="button" id = "btn" value = "Reverse"
+onclick="reverse()">
+<h3>Result:<p id="outcome"></p></h3>
+</div>
+<div class="wrapper-five">
+  <h1>Alert Function Prompt</h1>
+  <button onclick="myFunction()">Click me</button>
+
+
+  <h3>Result:<p id="demo"></p></h3>
+  </div>
+
+  <div class="wrapper-six">
+    <h1>Convert Minutes into Seconds</h1>
+    <p>Input a minute</p>
+    <input type="number" id="minute"><br>
+  </p>
+  <button onclick="convertMinutestoSec()">Convert</button>
+  <h3>Result:<p id="convert"></p></h3>
+  </div>
+
+  <div class="wrapper-seven">
+    <h1>Functions to Convert Hexadecimal to Binary</h1>
+    <br>
+    <select id='options'>
+      <option value="HEXBIN">Hexadecimal to Binary</option>
+      <option value="DECHEX">Decimal to Hexadecimal</option>       
+      <option value="DECBIN">Decimal to Binary</option>
+    </select>
+  </br>
+  <br>
+    <p>Input a number</p>
+    <br>
+    <input type="number" id='initVal'><br>
+  </p>
+  <button onclick='convert()'>Convert</button>
+  <h3>Result:<p id="out"></p</h3>
+  </div>
+
+  <div class="wrapper-eight">
+    <h1>Convert into Emoji</h1>
+  </br>
+  <br>
+    <p>Input emoji</p>
+    <br>
+    <input type="text" id='emoji'><br>
+  </p>
+  <button onclick='convertEmoji()'>Convert</button>
+  <h3>Result:<p id="res"></p</h3>
+  </div>
+
+  <div class="wrapper-nine">
+    <h1>Convert String into Double String</h1>
+  </br>
+  <br>
+    <p>Input word</p>
+    <br>
+    <input type="text" id='str'><br>
+  </p>
+  <button onclick='DoubleString()'>Convert</button>
+  <h3>Result:<p id="double"></p</h3>
+  </div>
+
+  <footer>
+    <p>Compiled by Denzel Joseph Tolosa</p>
+    <p>Follow me on my Social Media Platforms!</p>
+    <div class="social">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+    <p class="end">Copyright by Denzel Joseph Tolosa</p>
+</footer>
+  
+
+
+    
+  
+    </body>
+    </html>
